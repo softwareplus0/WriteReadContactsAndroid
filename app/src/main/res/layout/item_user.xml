@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="60dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:id="@+id/icon_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/icon_width_height"
+            android:layout_height="@dimen/icon_width_height"
+            android:src="@drawable/bg_circle"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/icon_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+
+            android:text="T"
+            android:textColor="@android:color/white"
+
+            android:textSize="@dimen/icon_text_size" />
+    </RelativeLayout>
+
+    <TextView
+
+        android:id="@+id/tvName"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+
+        android:text="Name"
+
+        android:textSize="@dimen/name_size" />
+
+    <TextView
+
+        android:id="@+id/tvHome"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="@dimen/name_size"
+
+        android:text="HomeTown" />
+
+
+</LinearLayout>

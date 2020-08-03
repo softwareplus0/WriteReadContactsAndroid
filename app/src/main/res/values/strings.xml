@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="addContactButton">Add Contact</string>
+    <string name="saveButton">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="email">Email</string>
+
+    <dimen name="name_size">17sp</dimen>
+
+
+    <dimen name="element_height">55dp</dimen>
+
+    <dimen name="icon_width_height">40dp</dimen>
+    <dimen name="icon_text_size">25sp</dimen>
+</resources>
